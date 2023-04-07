@@ -1,0 +1,13 @@
+# Cloud Factory Provisioning
+
+Co-ordination and extensibility whilst vending using with the Account Factory for Terraform (AFT) framework. Further customisation, beyond that provided by the vending process, through an AWS Step Function State Machine, which enables control flow and integration with AWS and third-party services.
+
+## Usage
+
+### State Machine
+
+Define your own state machine, which will receive a [JSON payload](https://github.com/aws-ia/terraform-aws-control_tower_account_factory/tree/main/sources/aft-customizations-repos/aft-account-provisioning-customizations#example-payload) containing the account request information and state of the AWS Account being created.
+
+## Further Reading
+
+See: [AFT Account Provisioning Customizations](https://github.com/aws-ia/terraform-aws-control_tower_account_factory/tree/main/sources/aft-customizations-repos/aft-account-provisioning-customizations)
