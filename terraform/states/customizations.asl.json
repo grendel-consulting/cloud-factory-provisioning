@@ -1,0 +1,9 @@
+{
+    "StartAt": "NoOp",
+    "States": {
+      "NoOp": {
+        "Type": "Pass",
+        "End": true
+      }
+    }
+}
