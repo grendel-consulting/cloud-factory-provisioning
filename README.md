@@ -8,6 +8,10 @@ Co-ordination and extensibility whilst vending using with the Account Factory fo
 
 Define your own state machine, which will receive a [JSON payload](https://github.com/aws-ia/terraform-aws-control_tower_account_factory/tree/main/sources/aft-customizations-repos/aft-account-provisioning-customizations#example-payload) containing the account request information and state of the AWS Account being created.
 
+## Deployment
+
+Deployment is part of the cloud-factory configuration and must presently be triggered manually.
+
 ## Further Reading
 
 See: [AFT Account Provisioning Customizations](https://github.com/aws-ia/terraform-aws-control_tower_account_factory/tree/main/sources/aft-customizations-repos/aft-account-provisioning-customizations)
