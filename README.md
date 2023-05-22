@@ -10,7 +10,7 @@ Define your own state machine, which will receive a [JSON payload](https://githu
 
 ## Deployment
 
-Deployment is part of the cloud-factory configuration and must presently be triggered manually.
+Deployment occurs on merge to main, triggering an AWS CodePipeline in the factory management OU; it is not speculatively planned through GitHub Actions as the buildspec hydrates the providers and backends through the Jinga templates.
 
 ## Further Reading
 
